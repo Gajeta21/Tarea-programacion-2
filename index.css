@@ -1,0 +1,48 @@
+.calculator{
+    height: 420px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+.calculator td button{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+#eliminar{
+    margin-top: -50px;
+    border-radius: 15%;
+    width: 300px;
+    background-color: blueviolet;
+}
+#verHistorial{
+    border-radius: 15%;
+    width: 300px;
+    background-color: blueviolet;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blue;
+    border-radius: 35px;
+}
+.historial{
+    background-color: royalblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
